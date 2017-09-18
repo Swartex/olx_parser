@@ -16,11 +16,11 @@
 ```
 samsung - это бренд/марка и т.д. кароче что нужно искать
 ```
-q-samsung
+/q-samsung/
 ```
 нужно для того что бы с этой страници начинался выбор пагинации, то есть брался последний 
 ```
-?page=1
+/?page=1
 ```
 ```
 pages = soup.find("div", class_="pager rel clr").find_all("span", class_="item fleft")[-1]
