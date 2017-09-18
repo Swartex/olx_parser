@@ -25,7 +25,7 @@ q-samsung
 ```
 pages = soup.find("div", class_="pager rel clr").find_all("span", class_="item fleft")[-1]
 ```
-## Использованые модули
+### Использованые модули
 1. requests
 2. BeautifulSoup
 3. csv
